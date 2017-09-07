@@ -1,0 +1,221 @@
+#container {
+	width: 1050px;
+	margin: 0 auto;
+}
+
+#header {
+	height: 100px;
+	padding: 10px 0;
+}
+
+#brand {
+	float: left;
+}
+
+@keyframes a {
+	from {color: steelblue;}
+	to {color: white;}
+}
+
+#header h1 a {
+	animation-name: a;
+	animation-duration: 15s;
+	animation-delay: 3s;
+}
+
+h1 a {
+	font-size: 50px;
+	font-weight: 200;
+	color: steelblue;
+	text-decoration: none;
+	font-family: georgia;
+	text-shadow: 2px 1px forestgreen;
+
+}
+
+#searchbox {
+	float: right;
+	background: linear-gradient(#E5F2BB, #B7E952);
+	background: -moz-linear-gradient(#E5F2BB, #B7E952);
+	background: -webkit-linear-gradient(#E5F2BB, #B7E952);
+	background: -o-linear-gradient(#E5F2BB, #B7E952);
+	width: 400px;
+	height: 50px;
+	padding: 20px 20px 0 20px;
+	margin-top: 20px;
+	box-shadow: 2px 2px steelblue;
+}
+
+.text {
+	float: left;
+	width: 300px;
+	padding: 5px;
+	font-size: 15px;
+	color: linear-gradient(#E5F2BB, #B7E952);
+	color: -moz-linear-gradient(#E5F2BB, #B7E952);
+	color: -webkit-linear-gradient(#E5F2BB, #B7E952);
+	color: -o-linear-gradient(#E5F2BB, #B7E952);
+	/*background: white url(images/search.png) right center no-repeat;*/
+	
+}
+
+.submit	{
+	float: right;
+	padding: 5px;
+	font-weight: bold;
+	color: white;
+	background: steelblue;
+	font-size: 15px;
+}
+
+#searchbox .submit {
+	animation-name: submit;
+	animation-duration: 10s;
+}
+
+@keyframes submit {
+	from {background: steelblue;}
+	to {background: forestgreen;}
+}
+
+.clear {
+	clear: both;
+}
+
+ul {
+	list-style: none;
+}
+
+#menu ul li {
+	float: left;
+	padding: 0 50px;
+	height: 30px;
+	border-right: 1px solid steelblue;
+}
+
+#menu {
+	height: 70px;
+	background: linear-gradient(#E5F2BB, #B7E952);
+	background: -moz-linear-gradient(#E5F2BB, #B7E952);
+	background: -webkit-linear-gradient(#E5F2BB, #B7E952);
+	background: -o-linear-gradient(#E5F2BB, #B7E952);
+	padding: 7px 0;
+	box-shadow: 2px 2px steelblue;
+}
+
+#menu ul li:last-child {
+	border-right: none;
+}
+
+#menu ul li a {
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 17px;
+	color: steelblue;
+	line-height: 30px;
+	-webkit-transition: font-size 0.3s ease;
+	-moz-transition: font-size 0.3s ease;
+	-o-transition: font-size 0.3s ease;
+	-ms-transition: font-size 0.3s ease;
+	transition: font-size 0.3s ease;
+}
+
+#menu ul li a:hover{
+	font-size: 20px;
+	font-weight: bolder;
+	color: white;
+}
+
+#introduction {
+	background: linear-gradient(#E5F2BB, #B7E952);
+	background: -moz-linear-gradient(#E5F2BB, #B7E952);
+	background: -webkit-linear-gradient(#E5F2BB, #B7E952);
+	background: -o-linear-gradient(#E5F2BB, #B7E952);
+	padding: 30px;
+	margin: 16px 0;
+	border-radius: 20px;
+	box-shadow: 2px 2px steelblue;
+}
+
+#introduction h3 {
+	font-size: 45px;
+	color: steelblue;
+	font-weight: normal;
+}
+
+#introduction p {
+	font-size: 25px;
+	color: steelblue;
+	text-align: justify;
+}
+
+.sidebar {
+	height: 500px;
+	width: 450px;
+	border: 1px solid steelblue;
+	border-radius: 20px;
+	padding: 10px 20px;
+	margin-bottom: 20px;
+	box-shadow: 2px 2px steelblue;
+}
+
+.sidebar h3 {
+	color: steelblue;
+	font-size: 30px;
+	text-transform: uppercase;
+}
+
+.sidebar ul {
+	padding-top: 8px;
+}
+
+#leftsidebar ul li {
+	padding: 10px 0 10px 10px;
+	list-style: url(images/check.png);
+}
+
+#rightsidebar ul li {
+	padding: 15px 0 17px 70px;
+	background: url(images/muscle.png) no-repeat;
+}
+
+.sidebar ul li a {
+	text-decoration: none;
+	color: steelblue;
+	font-size: 25px;
+	-webkit-transition: font-size 0.3s ease;
+	-moz-transition: font-size 0.3s ease;
+	-o-transition: font-size 0.3s ease;
+	-ms-transition: font-size 0.3s ease;
+	transition: font-size 0.3s ease;
+}
+
+.sidebar ul li a:hover {
+	font-size: 30px;
+	font-weight: bolder;
+	color: forestgreen;
+}
+
+#rightsidebar {
+ float: right;
+}
+
+#leftsidebar{
+	float: left;
+}
+
+.footer {
+	text-align: center;
+	color: steelblue;
+	height: 60px;
+	background: linear-gradient(#E5F2BB, #B7E952);
+	background: -moz-linear-gradient(#E5F2BB, #B7E952);
+	background: -webkit-linear-gradient(#E5F2BB, #B7E952);
+	background: -o-linear-gradient(#E5F2BB, #B7E952);
+	padding: 50px 20px;
+	margin-top: 50px: 
+	font-weight: bolder;
+	font-size: 15px;
+	border-radius: 20px;
+	box-shadow: 2px 2px steelblue;
+}
